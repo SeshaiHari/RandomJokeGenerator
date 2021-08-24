@@ -7,7 +7,7 @@ function App() {
   const lastNameRef = useRef(null);
 
   const [firstName, setFirstName] = useState("Greedy");
-  const [lastName, setLastName] = useState("Craven");
+  const [lastName, setLastName] = useState("Craven ");
 
   const joke = useRandomJoke(firstName, lastName);
   //custom hooks
